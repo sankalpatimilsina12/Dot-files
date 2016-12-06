@@ -54,7 +54,7 @@ set ignorecase                                      " Uses case insensitive sear
 set splitbelow                                      " A new window is put below the current one
 set splitright                                      " A new window is put right of the current one
 set history=100                                     " Set number of command line history remembered
-set directory=C:/Users/Sankalpa/Desktop/vimfiles/tmp/swap,/tmp                  " Directory for vim swap
+set directory=~/.vim/tmp/swap,/tmp                  " Directory for vim swap
 set updatetime=4000                                 " Time in ms after which swap will be updated
 set updatecount=200                                 " Number of characters typed to cause a swap file update
 set undofile                                        " Automatically save and restore undo history
@@ -62,7 +62,7 @@ set undodir=~/.vim/tmp/undo,/tmp                    " Directory for vim undo
 set undolevels=1000                                 " Over 1000 levels of undo
 set undoreload=10000                                " Maximum number lines to save for undo on a buffer reload
 set backup                                          " Enable backup
-set backupdir=C:/Users/Sankalpa/Desktop/vimfiles/tmp/swap,/tmp                " Set backup dir
+set backupdir=~/.vim/tmp/backup,/tmp                " Set backup dir
 
 
 " FORMATTING
